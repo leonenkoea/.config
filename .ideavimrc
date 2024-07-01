@@ -1,0 +1,56 @@
+let mapleader=" "
+
+set exchange
+set surround
+set commentary
+set NERDTree
+
+set ideajoin
+
+set clipboard+=unnamed
+
+set number
+set relativenumber
+set incsearch
+set scrolloff=10
+
+set visualbell
+set noerrorbells
+
+map <leader>f <Action>(ReformatCode)
+
+map <leader>r <Action>(RefactoringMenu)
+map <leader>v <Action>(IntroduceVariable)
+map <leader>m <Action>(ExtractMethod)
+
+map <leader>a <Action>(Generate)
+map <leader>s <Action>(SurroundWith)
+
+map <leader>e <Action>(ExpandRegion)
+map <leader>E <Action>(ExpandAllRegions)
+map <leader>c <Action>(CollapseRegion)
+map <leader>C <Action>(CollapseAllRegions)
+
+map <leader>b <Action>(Back)
+map <leader>n <Action>(Forward)
+
+map gd <Action>(GotoDeclaration)
+map gi <Action>(GotoImplementation)
+map gt <Action>(GotoTest)
+
+map <leader>w :w<Enter>
+map <leader>q :wq<Enter>
+
+map H <Action>(MethodUp)
+map L <Action>(MethodDown)
+
+map <Tab> <Action>(NextTab)
+map <S-Tab> <Action>(PreviousTab)
+
+map <leader>1 :NERDTree<enter>
+map <leader>2 <Action>(ActivateTerminalToolWindow)
+
+map <leader>z <Action>(ToggleZenMode)
+
+map <leader>j o//@formatter:
+map <leader>k O//@formatter:
