@@ -38,6 +38,8 @@ map gd <Action>(GotoDeclaration)
 map gi <Action>(GotoImplementation)
 map gt <Action>(GotoTest)
 
+map <leader>x <Action>(Rerun)
+
 map <leader>w :w<Enter>
 map <leader>q :wq<Enter>
 
