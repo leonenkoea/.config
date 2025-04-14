@@ -37,6 +37,7 @@ map <leader>s <Action>(SearchEverywhere)
 map <leader>i <Action>(ShowIntentionActions)
 map <leader>r <Action>(RefactoringMenu)
 map <leader>g <Action>(Vcs.QuickListPopupAction)
+map <leader>z <Action>(CloseActiveTab)
 
 " Window Navigation
 map <C-s>h <Action>(SplitHorizontally)
