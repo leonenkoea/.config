@@ -6,6 +6,7 @@ set surround
 set commentary
 set NERDTree
 set argtextobj
+set easymotion
 
 set ideajoin
 
@@ -68,6 +69,10 @@ map L <Action>(MethodDown)
 map <leader>b <Action>(Back)
 map <leader>n <Action>(Forward)
 
+" Easymotion
+map <leader>j <Plug>(easymotion-f)
+map <leader>k <Plug>(easymotion-F)
+
 " Tabs
 map <Tab> <Action>(NextTab)
 map <S-Tab> <Action>(PreviousTab)
@@ -77,10 +82,6 @@ map <leader>e <Action>(ExpandRegion)
 map <leader>E <Action>(ExpandAllRegions)
 map <leader>c <Action>(CollapseRegion)
 map <leader>C <Action>(CollapseAllRegions)
-
-" Formatter
-map <leader>k O//@formatter:
-map <leader>j o//@formatter:
 
 " Save or Save+Exit
 map <leader>w :w<CR>
