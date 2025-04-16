@@ -40,8 +40,8 @@ map <leader>g <Action>(Vcs.QuickListPopupAction)
 map <leader>z <Action>(CloseActiveTab)
 
 " Window Navigation
-map <C-s>h <Action>(SplitHorizontally)
-map <C-s>v <Action>(SplitVertically)
+map <leader><leader>h <Action>(SplitHorizontally)
+map <leader><leader>v <Action>(SplitVertically)
 map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
