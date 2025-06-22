@@ -84,6 +84,9 @@ map <leader>E <Action>(ExpandAllRegions)
 map <leader>c <Action>(CollapseRegion)
 map <leader>C <Action>(CollapseAllRegions)
 
+" AI
+map <leader>x <Action>(AIAssistant.Editor.AskAiAssistantInEditor)
+
 " Save or Save+Exit
 map <leader>w :w<CR>
 map <leader>q :wq<CR>
